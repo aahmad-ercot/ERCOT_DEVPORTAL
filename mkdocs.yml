@@ -1,0 +1,45 @@
+site_name: ERCOT DEV PORTAL
+theme: 
+  name: material
+
+  custom_dir: material/overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+        - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+nav:
+  - Home:
+    - Applications: index.md
+    - API Sites: installation.md
+    - Support: usage_notes.md
+    - Digital Certificates: certificates.md
+
+extra:
+  social:
+   - icon: fontawesome/brands/facebook
+     link: http://facebook.com
+
+     
+copyright: Copyright &copy; 1996-2024 Electric Reliability Council of Texas, Inc. All rights reserved.
