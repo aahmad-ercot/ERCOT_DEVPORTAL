@@ -1,19 +1,16 @@
 # Welcome to ERCOT Developer Portal 
+ 
+![Ercot](assets/images/dev_por_hero_2-90c7adef1f8a537234f693a3d4c73212.jpeg)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-<img src="dev_por_hero_2-90c7adef1f8a537234f693a3d4c73212.jpeg">
+#Accessing Applications, APIs and Services
 
 ## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Latest Updates
+ 
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Type  | Description  | Updated |  |
+------------- | -------------  | ------   |  -----
+icon1 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed. | 12/2/2023 | View
+icon2  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.  | 12/5/2023  | View
