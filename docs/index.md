@@ -3,8 +3,32 @@
 ![Ercot](assets/images/dev_por_hero_2-90c7adef1f8a537234f693a3d4c73212.jpeg)
   
 #Accessing Applications, APIs and Services
+ 
 
-## Commands
+::cards::
+
+[
+  {
+    "title": "Applications",
+    "content": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/applications.jpeg",
+    "url": "http://google.com"
+  },
+   {
+    "title": "API Sites",
+    "content": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/apis.jpeg",
+     "url": "http://google.com"
+  },
+  {
+    "title": "Discussions",
+    "content": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/discussion_forum.jpeg",
+     "url": "http://google.com"
+  }
+]
+
+::/cards::
 
 ## Latest Updates
  

@@ -50,9 +50,9 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
-  - git-committers:
-      repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
-      branch: main
+ # - git-committers:
+ #     repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
+ #     branch: main
 
 extra:
   status:
@@ -72,9 +72,11 @@ extra:
      link: http://youtube.com
      
 
-
+markdown_extensions:
+  - neoteroi.cards
 
 extra_css:
-    - custom.css 
+    - css/neoteroi-mkdocs.css
+    - css/custom.css 
      
 copyright: Copyright &copy; 1996-2024 Electric Reliability Council of Texas, Inc. All rights reserved.
