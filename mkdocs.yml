@@ -1,18 +1,21 @@
 site_name: ERCOT DEV PORTAL
+repo_name: aahmad-ercot/ERCOT_DEVPORTAL
+repo_url: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
 
 theme: 
   name: material
-
+  logo: assets/ercot-logo-white.svg
+  custom_dir: overrides
   features:
     - announce.dismiss
-    - content.action.edit
+    # - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.code.select
     # - content.tabs.link
     - content.tooltips
-    # - header.autohide
+    - header.autohide
     # - navigation.expand
     - navigation.footer
         - navigation.indexes
@@ -30,17 +33,46 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+  icon:
+    logo: logo
 nav:
   - Home:
     - Applications: index.md
-    - API Sites: installation.md
+    - API Sites: page2.md
     - Support: usage_notes.md
     - Digital Certificates: certificates.md
 
+# Plugins
+plugins:
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - git-committers:
+      repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
+      branch: main
+
 extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
    - icon: fontawesome/brands/facebook
-     link: http://facebook.com
+     link: http://facebook.com 
+   - icon: fontawesome/brands/twitter
+     link: http://twitter.com
+   - icon: fontawesome/brands/linkedin
+     link: http://linkedin.com
+   - icon: fontawesome/brands/youtube
+     link: http://youtube.com
+     
+
+
 
 extra_css:
     - custom.css 
