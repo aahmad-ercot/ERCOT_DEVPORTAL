@@ -18,7 +18,7 @@ theme:
     - header.autohide
     # - navigation.expand
     - navigation.footer
-        - navigation.indexes
+    - navigation.indexes
 
     # - navigation.instant
     # - navigation.instant.prefetch
@@ -48,13 +48,14 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: false
       fallback_to_build_date: true
  # - git-committers:
  #     repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
  #     branch: main
 
 extra:
+  generator: false
   status:
     new: Recently added
     deprecated: Deprecated
