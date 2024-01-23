@@ -2,59 +2,60 @@ site_name: ERCOT DEV PORTAL
 repo_name: aahmad-ercot/ERCOT_DEVPORTAL
 repo_url: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
 
-theme: 
+theme:
   name: material
   logo: assets/ercot-logo-white.svg
   custom_dir: overrides
   features:
-    - announce.dismiss
-    # - content.action.edit
-    - content.action.view
-    - content.code.annotate
-    - content.code.copy
-    # - content.code.select
-    # - content.tabs.link
-    - content.tooltips
-    - header.autohide
-    # - navigation.expand
-    - navigation.footer
-        - navigation.indexes
+  - announce.dismiss
+  # - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - content.code.copy
+  # - content.code.select
+  # - content.tabs.link
+  - content.tooltips
+  - header.autohide
+  # - navigation.expand
+  - navigation.footer - navigation.indexes
 
-    # - navigation.instant
-    # - navigation.instant.prefetch
-    # - navigation.instant.progress
-    # - navigation.prune
-    - navigation.sections
-    - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    - toc.follow
+  # - navigation.instant
+  # - navigation.instant.prefetch
+  # - navigation.instant.progress
+  # - navigation.prune
+  - navigation.sections
+  - navigation.tabs
+  # - navigation.tabs.sticky
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.share
+  - search.suggest
+  - toc.follow
   icon:
     logo: logo
+
 nav:
-  - Home:
-    - Applications: index.md
-    - API Sites: page2.md
-    - Support: usage_notes.md
-    - Digital Certificates: certificates.md
+- Home:
+  - Applications: index.md
+  - API Sites: page2.md
+  - Support: usage_notes.md
+  - Digital Certificates: certificates.md
 
 # Plugins
 plugins:
-  - blog
-  - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - git-revision-date-localized:
-      enable_creation_date: true
-      fallback_to_build_date: true
- # - git-committers:
- #     repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
- #     branch: main
+- blog
+- search:
+    separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+- git-revision-date-localized:
+    enable_creation_date: false
+    fallback_to_build_date: true
+# - git-committers:
+#     repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
+#     branch: main
 
 extra:
+  generator: false
   status:
     new: Recently added
     deprecated: Deprecated
@@ -62,21 +63,21 @@ extra:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
-   - icon: fontawesome/brands/facebook
-     link: http://facebook.com 
-   - icon: fontawesome/brands/twitter
-     link: http://twitter.com
-   - icon: fontawesome/brands/linkedin
-     link: http://linkedin.com
-   - icon: fontawesome/brands/youtube
-     link: http://youtube.com
-     
+  - icon: fontawesome/brands/facebook
+    link: http://facebook.com
+  - icon: fontawesome/brands/twitter
+    link: http://twitter.com
+  - icon: fontawesome/brands/linkedin
+    link: http://linkedin.com
+  - icon: fontawesome/brands/youtube
+    link: http://youtube.com
+
 
 markdown_extensions:
-  - neoteroi.cards
+- neoteroi.cards
 
 extra_css:
-    - css/neoteroi-mkdocs.css
-    - css/custom.css 
-     
+- css/neoteroi-mkdocs.css
+- css/custom.css
+
 copyright: Copyright &copy; 1996-2024 Electric Reliability Council of Texas, Inc. All rights reserved.
