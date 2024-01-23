@@ -7,17 +7,18 @@ theme:
   logo: assets/ercot-logo-white.svg
   custom_dir: overrides
   features:
-  - announce.dismiss
-  # - content.action.edit
-  - content.action.view
-  - content.code.annotate
-  - content.code.copy
-  # - content.code.select
-  # - content.tabs.link
-  - content.tooltips
-  - header.autohide
-  # - navigation.expand
-  - navigation.footer - navigation.indexes
+    - announce.dismiss
+    # - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
 
   # - navigation.instant
   # - navigation.instant.prefetch
@@ -44,15 +45,15 @@ nav:
 
 # Plugins
 plugins:
-- blog
-- search:
-    separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-- git-revision-date-localized:
-    enable_creation_date: false
-    fallback_to_build_date: true
-# - git-committers:
-#     repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
-#     branch: main
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date-localized:
+      enable_creation_date: false
+      fallback_to_build_date: true
+ # - git-committers:
+ #     repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
+ #     branch: main
 
 extra:
   generator: false
