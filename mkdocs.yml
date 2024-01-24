@@ -1,4 +1,4 @@
-site_name: ERCOT DEV PORTAL
+site_name: ERCOT Developer Portal
 repo_name: aahmad-ercot/ERCOT_DEVPORTAL
 repo_url: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
 
@@ -7,27 +7,26 @@ theme:
   logo: assets/ercot-logo-white.svg
   custom_dir: overrides
   features:
-    - announce.dismiss
-    # - content.action.edit
-    - content.action.view
-    - content.code.annotate
-    - content.code.copy
-    # - content.code.select
-    # - content.tabs.link
-    - content.tooltips
-    - header.autohide
-    # - navigation.expand
-    - navigation.footer
-    - navigation.indexes
-
-  # - navigation.instant
+  - announce.dismiss
+  # - content.action.edit
+  # - content.action.view
+  #- content.code.annotate
+  # - content.code.copy
+  # - content.code.select
+  # - content.tabs.link
+  - content.tooltips
+  - header.autohide
+  # - navigation.expand
+  #- navigation.footer
+  #- navigation.indexes
   # - navigation.instant.prefetch
   # - navigation.instant.progress
   # - navigation.prune
   - navigation.sections
+  # - navigation.instant
   - navigation.tabs
-  # - navigation.tabs.sticky
   - navigation.top
+  # - navigation.tabs.sticky
   - navigation.tracking
   - search.highlight
   - search.share
@@ -35,25 +34,45 @@ theme:
   - toc.follow
   icon:
     logo: logo
+  palette:
+  - scheme: default
+    primary: white
+    accent: cyan
+    toggle:
+      icon: material/lightbulb
+      name: Light/Dark Mode Toggle
+  - scheme: slate
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Light/Dark Mode Toggle
 
 nav:
-- Home:
-  - Applications: index.md
-  - API Sites: page2.md
-  - Support: usage_notes.md
-  - Digital Certificates: certificates.md
+- Home: index.md
+- Applications:
+  - ERCOT Web Services: applications/ews/ews.md
+  - Marketrak: applications/marketrak/marketrak.md
+  - Public API: applications/pubapi/pubapi.md
+- API Sites:
+  - ERCOT Web Services: api_sites/ews/ews.md
+  - Marketrak API: api_sites/marketrak/marketrak.md
+  - Public API: api_sites/pubapi/pubapi.md
+  - Retail API: api_sites/retail/retail.md
+- Discussion Forum: discussion_forum/forum.md
+- Support: support/support.md
 
 # Plugins
 plugins:
-  - blog
-  - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - git-revision-date-localized:
-      enable_creation_date: false
-      fallback_to_build_date: true
- # - git-committers:
- #     repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
- #     branch: main
+- blog
+- search:
+    separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+- git-revision-date-localized:
+    enable_creation_date: false
+    fallback_to_build_date: true
+# - git-committers:
+#     repository: https://github.com/aahmad-ercot/ERCOT_DEVPORTAL
+#     branch: main
 
 extra:
   generator: false
@@ -80,5 +99,6 @@ markdown_extensions:
 extra_css:
 - css/neoteroi-mkdocs.css
 - css/custom.css
+- stylesheets/extra.css
 
 copyright: Copyright &copy; 1996-2024 Electric Reliability Council of Texas, Inc. All rights reserved.

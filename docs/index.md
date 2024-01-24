@@ -1,6 +1,6 @@
-# Welcome to ERCOT Developer Portal 
- 
-![Ercot](assets/images/dev_por_hero_2-90c7adef1f8a537234f693a3d4c73212.jpeg)
+ <div     style=" opacity: 1; mix-blend-mode: normal; color: rgb(255, 255, 255); font-feature-settings: &quot;liga&quot; 0; font-size: 34px; font-style: normal; font-weight: normal; line-height: normal; --paragraph: 0px; text-align: left; text-transform: none; height: 0px; width: 806px; transform: rotate(0deg) translate(57px, 146px);"><div ><p>Welcome to ERCOT Developer Portal</p></div></div>  
+
+![Ercot](assets/images/dev_por_hero_2.jpeg) 
   
 #Accessing Applications, APIs and Services
  
@@ -11,19 +11,19 @@
   {
     "title": "Applications",
     "content": "Lorem ipsum dolor sit amet.",
-    "image": "/assets/images/applications.jpeg",
+    "image": "assets/images/applications.jpeg",
     "url": "http://google.com"
   },
    {
     "title": "API Sites",
     "content": "Lorem ipsum dolor sit amet.",
-    "image": "/assets/images/apis.jpeg",
+    "image": "assets/images/apis.jpeg",
      "url": "http://google.com"
   },
   {
     "title": "Discussions",
     "content": "Lorem ipsum dolor sit amet.",
-    "image": "/assets/images/discussion_forum.jpeg",
+    "image": "assets/images/discussion_forum.jpeg",
      "url": "http://google.com"
   }
 ]
